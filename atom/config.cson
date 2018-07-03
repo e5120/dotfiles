@@ -1,0 +1,53 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    minimumWordLength: 2
+  "autocomplete-python":
+    useKite: false
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "symbols-view"
+      "markdown-preview-plus"
+      "spell-check"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontFamily: "\"Ricty\",Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 16
+    invisibles: {}
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "f058f70b-ec45-4403-8c23-cd248381975d"
+  latex:
+    buildOnSave: true
+    engine: "uplatex"
+    openResultAfterBuild: false
+    openResultInBackground: false
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    style: {}
+    toggles:
+      autoClose: true
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  "remote-ftp":
+    connector: {}
+  "tree-view":
+    squashDirectoryNames: true
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false

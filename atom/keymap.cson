@@ -1,0 +1,14 @@
+'.platform-linux atom-workspace atom-text-editor:not([mini])':
+  # atom editor --------
+  'ctrl-i': 'editor:indent-selected-rows'
+  'ctrl-o': 'editor:outdent-selected-rows'
+
+'body':
+  'ctrl-k': 'core:move-up'
+  'ctrl-l': 'core:move-down'
+  'ctrl-j': 'core:move-left'
+  'ctrl-;': 'core:move-right'
+
+'atom-text-editor':
+  'ctrl-k': 'unset!'
+  'ctrl-c': 'editor:cut-to-end-of-line'

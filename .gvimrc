@@ -1,0 +1,8 @@
+" window height
+set lines=55
+" window width
+set columns=180
+" color scheme
+colorscheme koehler
+" dark color
+set background=dark
