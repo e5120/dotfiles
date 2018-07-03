@@ -45,7 +45,9 @@
     keep_alive: true
     launch_at_startup: true
   "remote-ftp":
-    connector: {}
+    connector:
+      autoUploadOnSave: "only when connected"
+    statusbar: {}
   "tree-view":
     squashDirectoryNames: true
   "vim-mode-plus": {}
