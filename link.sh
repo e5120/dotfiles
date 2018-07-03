@@ -8,6 +8,8 @@ do
   [[ "$f" == ".DS_Store" ]] && continue
   ln -snfv ${PWD}/${f} ${HOME}/${f}
 done
+mkdir -p ${HOME}/.vim/colors/
+cp ${PWD}/vim/colors/monokai.vim ${HOME}/.vim/colors/
 echo $(tput setaf 2)Deploy dotfiles complete!. ✔︎$(tput sgr0)
 
 ln -snfv ${PWD}/atom/config.cson    ${HOME}/.atom/config.cson
